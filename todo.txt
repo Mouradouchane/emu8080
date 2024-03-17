@@ -1,0 +1,25 @@
+
+1 : open rom file
+2 : parse + disassembly rom binaries
+3 : start execute/emulate disassembled instructions
+
+
+1 : rom
+- take rom file path
+- try to open 
+- if opned go to stage 2
+- else try again
+
+2 : parse 
+- take binaries buffer
+- process/parse instruction : opcode , name , size , args
+- save parsed instruction 
+- increment by instruction size for correct parsing
+- if buffer not end , parse again
+- else go to stage 3
+
+3 : emulate
+- take instruction at pc register
+- process it 
+- go again while instructions is there
+- else stop emulation go to menu or whoever
