@@ -1,4 +1,15 @@
 .git/*
+.vs/*
 x86/*
 x64/*
 build/*
+Debug/*
+Release/*
+**.idb
+**.pdb
+**.recipe
+**.log
+disassembly8080/Debug/*
+disassembly8080/Release/*
+console/console.tlog/*
+**.obj

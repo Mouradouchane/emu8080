@@ -1,18 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34221.43
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console", "console\console.vcxproj", "{4AFD5291-D31D-4D7F-A2FB-AB84D4F9A447}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "disassembly8080", "disassembly8080\disassembly8080.vcxproj", "{6EEBD69E-3358-4B5A-A1EC-8972E9F07D2F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared_code", "shared_code", "{847D0347-00AB-4389-9E8E-602AEE8DEEE8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "roms", "roms", "{0E9F227B-83D7-4ECA-9C99-F53DA198F313}"
 	ProjectSection(SolutionItems) = preProject
-		shared_code\files.cpp = shared_code\files.cpp
-		shared_code\files.hpp = shared_code\files.hpp
-		shared_code\macros.hpp = shared_code\macros.hpp
-		shared_code\types.hpp = shared_code\types.hpp
+		roms\invaders.concatenated = roms\invaders.concatenated
+		roms\invaders.e = roms\invaders.e
+		roms\invaders.f = roms\invaders.f
+		roms\invaders.g = roms\invaders.g
+		roms\invaders.h = roms\invaders.h
 	EndProjectSection
 EndProject
 Global

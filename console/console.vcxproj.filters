@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="shared_code">
+      <UniqueIdentifier>{0a297c36-2b45-4e29-8315-7405020f2868}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared_code\io.cpp">
+      <Filter>shared_code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared_code\io.hpp">
+      <Filter>shared_code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared_code\macros.hpp">
+      <Filter>shared_code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared_code\types.hpp">
+      <Filter>shared_code</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
